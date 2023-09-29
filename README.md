@@ -38,6 +38,8 @@ Once the VAE is trained, you can sample points from the learned latent space and
 
 - Train the VAE: Set the appropriate parameters, including the input folder, image size, latent space size, number of epochs etc. in `train.py`. Run the training code: `python3 train.py`
 
+Some example training images are provided in `in/`, these images are from https://thispersondoesnotexist.com/
+
 - Explore the Latent Space: `python3 tkload.py` You can adjust the sliders to navigate through the latent space and visualize the generated images. Make sure to use set the parameters at the start of the `tkload.py` file to match the ones you used to train the model in `train.py`.
 
 - Save Generated Images: If you find interesting images, you can save them using the "Save" button in the GUI.
