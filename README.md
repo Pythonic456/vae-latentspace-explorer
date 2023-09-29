@@ -1,3 +1,12 @@
+If you want a quick start (although it is recommended to read this, as it provides a quick overview so you can understand and then use the model):
+
+```
+git clone --depth=1 https://github.com/Pythonic456/vae-latentspace-explorer
+pip3 install torch numba PIL numpy tqdm tkinter
+python3 train.py
+python3 tkload.py
+```
+
 # Variational Autoencoder (VAE)
 
 The Variational Autoencoder (VAE) is a generative neural network architecture used for unsupervised learning and data generation. It belongs to the family of autoencoders, which are neural networks designed to encode input data into a compact latent representation and then decode it back into the original data.
